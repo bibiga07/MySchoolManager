@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		603695B82CDC7CC80091ED73 /* Daegu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 603695B72CDC7CC80091ED73 /* Daegu.csv */; };
+		603695BB2CDC7DEE0091ED73 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 603695BA2CDC7DEE0091ED73 /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		603695902CDC63310091ED73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,7 @@
 		6036957F2CDC632F0091ED73 /* MySchoolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchoolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6036958F2CDC63310091ED73 /* MySchoolManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySchoolManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603695992CDC63310091ED73 /* MySchoolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySchoolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		603695B72CDC7CC80091ED73 /* Daegu.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Daegu.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603695BB2CDC7DEE0091ED73 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +82,7 @@
 		603695762CDC632F0091ED73 = {
 			isa = PBXGroup;
 			children = (
+				603695B72CDC7CC80091ED73 /* Daegu.csv */,
 				603695812CDC632F0091ED73 /* MySchoolManager */,
 				603695922CDC63310091ED73 /* MySchoolManagerTests */,
 				6036959C2CDC63310091ED73 /* MySchoolManagerUITests */,
@@ -112,6 +120,7 @@
 			);
 			name = MySchoolManager;
 			packageProductDependencies = (
+				603695BA2CDC7DEE0091ED73 /* Alamofire */,
 			);
 			productName = MySchoolManager;
 			productReference = 6036957F2CDC632F0091ED73 /* MySchoolManager.app */;
@@ -195,6 +204,9 @@
 			);
 			mainGroup = 603695762CDC632F0091ED73;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				603695B92CDC7DEE0091ED73 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 603695802CDC632F0091ED73 /* Products */;
 			projectDirPath = "";
@@ -212,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603695B82CDC7CC80091ED73 /* Daegu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +423,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bibiga.MySchoolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -441,7 +454,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bibiga.MySchoolManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -562,6 +575,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		603695B92CDC7DEE0091ED73 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		603695BA2CDC7DEE0091ED73 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 603695B92CDC7DEE0091ED73 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 603695772CDC632F0091ED73 /* Project object */;
 }
