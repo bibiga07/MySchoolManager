@@ -7,8 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		603695B82CDC7CC80091ED73 /* Daegu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 603695B72CDC7CC80091ED73 /* Daegu.csv */; };
 		603695BB2CDC7DEE0091ED73 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 603695BA2CDC7DEE0091ED73 /* Alamofire */; };
+		607446872CE2E01800C6D074 /* Seoul.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446862CE2E01800C6D074 /* Seoul.csv */; };
+		607446892CE2E0DA00C6D074 /* Busan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446882CE2E0DA00C6D074 /* Busan.csv */; };
+		6074468B2CE2E12A00C6D074 /* Daegu.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6074468A2CE2E12A00C6D074 /* Daegu.csv */; };
+		6074468D2CE4227500C6D074 /* Incheon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6074468C2CE4227500C6D074 /* Incheon.csv */; };
+		6074468F2CE422CD00C6D074 /* Gwangju.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6074468E2CE422CD00C6D074 /* Gwangju.csv */; };
+		607446912CE4232300C6D074 /* Daejeon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446902CE4232300C6D074 /* Daejeon.csv */; };
+		607446932CE4236800C6D074 /* Ulsan.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446922CE4236800C6D074 /* Ulsan.csv */; };
+		607446952CE423BE00C6D074 /* Sejong.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446942CE423BE00C6D074 /* Sejong.csv */; };
+		607446972CE4248600C6D074 /* Gyeonggi.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446962CE4248600C6D074 /* Gyeonggi.csv */; };
+		607446992CE424D600C6D074 /* Gangwon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446982CE424D600C6D074 /* Gangwon.csv */; };
+		6074469D2CE42CF600C6D074 /* Chungbuk.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6074469C2CE42CF600C6D074 /* Chungbuk.csv */; };
+		6074469F2CE4323500C6D074 /* Chungnam.csv in Resources */ = {isa = PBXBuildFile; fileRef = 6074469E2CE4323500C6D074 /* Chungnam.csv */; };
+		607446A12CE433D700C6D074 /* Jeonbuk.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446A02CE433D700C6D074 /* Jeonbuk.csv */; };
+		607446A32CE43EF000C6D074 /* Jeonnam.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446A22CE43EF000C6D074 /* Jeonnam.csv */; };
+		607446A52CE43F5500C6D074 /* Gyeongbuk.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446A42CE43F5500C6D074 /* Gyeongbuk.csv */; };
+		607446A72CE43FB400C6D074 /* Gyeongnam.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446A62CE43FB400C6D074 /* Gyeongnam.csv */; };
+		607446A92CE43FFD00C6D074 /* Jeju.csv in Resources */ = {isa = PBXBuildFile; fileRef = 607446A82CE43FFD00C6D074 /* Jeju.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +48,23 @@
 		6036957F2CDC632F0091ED73 /* MySchoolManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySchoolManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6036958F2CDC63310091ED73 /* MySchoolManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySchoolManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603695992CDC63310091ED73 /* MySchoolManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySchoolManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		603695B72CDC7CC80091ED73 /* Daegu.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Daegu.csv; sourceTree = "<group>"; };
+		607446862CE2E01800C6D074 /* Seoul.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Seoul.csv; sourceTree = "<group>"; };
+		607446882CE2E0DA00C6D074 /* Busan.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Busan.csv; sourceTree = "<group>"; };
+		6074468A2CE2E12A00C6D074 /* Daegu.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Daegu.csv; sourceTree = "<group>"; };
+		6074468C2CE4227500C6D074 /* Incheon.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Incheon.csv; sourceTree = "<group>"; };
+		6074468E2CE422CD00C6D074 /* Gwangju.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gwangju.csv; sourceTree = "<group>"; };
+		607446902CE4232300C6D074 /* Daejeon.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Daejeon.csv; sourceTree = "<group>"; };
+		607446922CE4236800C6D074 /* Ulsan.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ulsan.csv; sourceTree = "<group>"; };
+		607446942CE423BE00C6D074 /* Sejong.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sejong.csv; sourceTree = "<group>"; };
+		607446962CE4248600C6D074 /* Gyeonggi.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gyeonggi.csv; sourceTree = "<group>"; };
+		607446982CE424D600C6D074 /* Gangwon.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gangwon.csv; sourceTree = "<group>"; };
+		6074469C2CE42CF600C6D074 /* Chungbuk.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chungbuk.csv; sourceTree = "<group>"; };
+		6074469E2CE4323500C6D074 /* Chungnam.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chungnam.csv; sourceTree = "<group>"; };
+		607446A02CE433D700C6D074 /* Jeonbuk.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jeonbuk.csv; sourceTree = "<group>"; };
+		607446A22CE43EF000C6D074 /* Jeonnam.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jeonnam.csv; sourceTree = "<group>"; };
+		607446A42CE43F5500C6D074 /* Gyeongbuk.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gyeongbuk.csv; sourceTree = "<group>"; };
+		607446A62CE43FB400C6D074 /* Gyeongnam.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gyeongnam.csv; sourceTree = "<group>"; };
+		607446A82CE43FFD00C6D074 /* Jeju.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Jeju.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -82,7 +114,23 @@
 		603695762CDC632F0091ED73 = {
 			isa = PBXGroup;
 			children = (
-				603695B72CDC7CC80091ED73 /* Daegu.csv */,
+				607446A82CE43FFD00C6D074 /* Jeju.csv */,
+				607446A62CE43FB400C6D074 /* Gyeongnam.csv */,
+				607446A42CE43F5500C6D074 /* Gyeongbuk.csv */,
+				607446A22CE43EF000C6D074 /* Jeonnam.csv */,
+				607446A02CE433D700C6D074 /* Jeonbuk.csv */,
+				6074469E2CE4323500C6D074 /* Chungnam.csv */,
+				6074469C2CE42CF600C6D074 /* Chungbuk.csv */,
+				607446982CE424D600C6D074 /* Gangwon.csv */,
+				607446962CE4248600C6D074 /* Gyeonggi.csv */,
+				607446942CE423BE00C6D074 /* Sejong.csv */,
+				607446922CE4236800C6D074 /* Ulsan.csv */,
+				607446902CE4232300C6D074 /* Daejeon.csv */,
+				6074468E2CE422CD00C6D074 /* Gwangju.csv */,
+				6074468C2CE4227500C6D074 /* Incheon.csv */,
+				6074468A2CE2E12A00C6D074 /* Daegu.csv */,
+				607446882CE2E0DA00C6D074 /* Busan.csv */,
+				607446862CE2E01800C6D074 /* Seoul.csv */,
 				603695812CDC632F0091ED73 /* MySchoolManager */,
 				603695922CDC63310091ED73 /* MySchoolManagerTests */,
 				6036959C2CDC63310091ED73 /* MySchoolManagerUITests */,
@@ -224,7 +272,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603695B82CDC7CC80091ED73 /* Daegu.csv in Resources */,
+				607446892CE2E0DA00C6D074 /* Busan.csv in Resources */,
+				6074469F2CE4323500C6D074 /* Chungnam.csv in Resources */,
+				607446A72CE43FB400C6D074 /* Gyeongnam.csv in Resources */,
+				6074468D2CE4227500C6D074 /* Incheon.csv in Resources */,
+				607446A12CE433D700C6D074 /* Jeonbuk.csv in Resources */,
+				607446972CE4248600C6D074 /* Gyeonggi.csv in Resources */,
+				607446912CE4232300C6D074 /* Daejeon.csv in Resources */,
+				607446932CE4236800C6D074 /* Ulsan.csv in Resources */,
+				607446992CE424D600C6D074 /* Gangwon.csv in Resources */,
+				607446A92CE43FFD00C6D074 /* Jeju.csv in Resources */,
+				6074468F2CE422CD00C6D074 /* Gwangju.csv in Resources */,
+				6074469D2CE42CF600C6D074 /* Chungbuk.csv in Resources */,
+				607446872CE2E01800C6D074 /* Seoul.csv in Resources */,
+				607446A52CE43F5500C6D074 /* Gyeongbuk.csv in Resources */,
+				607446A32CE43EF000C6D074 /* Jeonnam.csv in Resources */,
+				607446952CE423BE00C6D074 /* Sejong.csv in Resources */,
+				6074468B2CE2E12A00C6D074 /* Daegu.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
