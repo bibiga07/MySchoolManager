@@ -11,7 +11,7 @@ import SwiftUI
 struct MySchoolManagerApp: App {
     var body: some Scene {
         WindowGroup {
-            StartView()
+            CustomTabBarNavigationView()
         }
     }
 }
