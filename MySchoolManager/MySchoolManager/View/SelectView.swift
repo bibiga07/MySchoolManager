@@ -20,6 +20,10 @@ struct SelectView: View {
                     .font(.system(size: 20, weight: .medium))
                 Text("처음 한번만 등록하면 다음부턴 하지 않아도 괜찮아요")
                     .font(.system(size: 13, weight: .light))
+                
+                Spacer()
+                    .frame(maxHeight: 50)
+                
                 Picker("교육청을 선택하세요", selection: $selectedEducation) {
                     ForEach(education, id: \.self) { education in
                         Text(education)
@@ -27,15 +31,16 @@ struct SelectView: View {
                 }
                 .pickerStyle(WheelPickerStyle())
                 .frame(width: 351)
-                .padding(.bottom, 50)
-                .padding(.top, 50)
+                
+                Spacer()
+                    .frame(maxHeight: 50)
                 
                 TextField("학교를 입력해주세요", text: $selectedSchool)
                     .padding(.leading, 33)
                 Rectangle()
                     .frame(width: 351, height: 1)
                 
-                Spacer().frame(height: 230)
+                Spacer().frame(maxHeight: 230)
                 
                 VStack(spacing: 8) {
                     Button {
