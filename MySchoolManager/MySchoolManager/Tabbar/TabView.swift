@@ -22,7 +22,7 @@ struct TabView: View {
             }
         case .profile:
             NavigationView {
-                StartView()
+                MainView()
             }
         }
     }
