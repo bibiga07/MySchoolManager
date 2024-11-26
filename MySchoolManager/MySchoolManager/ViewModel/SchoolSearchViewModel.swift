@@ -25,7 +25,7 @@ class SchoolSearchViewModel: ObservableObject {
                 do {
                     // 읽을 때 인코딩을 UTF-8로 설정
                     let content = try String(contentsOfFile: path, encoding: .utf8)
-                    let rows = content.split(whereSeparator: { $0.isNewline }) // 줄바꿈 확인
+                    let rows = content.split(whereSeparator: { $0.isNewline })
                     
                     
                     // 실제 데이터만 필터링
@@ -37,7 +37,7 @@ class SchoolSearchViewModel: ObservableObject {
                         }
                     }
 
-                    print("Rows in \(fileName): \(validRows.count)")  // 유효한 행 개수 확인
+                    print("Rows in \(fileName): \(validRows.count)")
                     for row in validRows {
                         let columns = row.split(separator: ",")
                         if columns.count == 3 {
