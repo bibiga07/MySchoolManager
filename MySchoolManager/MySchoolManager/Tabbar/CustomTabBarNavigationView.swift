@@ -31,6 +31,7 @@ struct CustomTabBarNavigationView: View {
                     }
                 }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 

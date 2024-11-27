@@ -18,7 +18,7 @@ struct TabButton: View {
             VStack {
                 Image(systemName: tab.icon)
                     .font(.system(size: 20))
-                    .foregroundColor(selectedTab == tab ? .blue : .gray)
+                    .foregroundColor(selectedTab == tab ? .cPrimary : .black)
             }
             .frame(maxWidth: .infinity)
         }
