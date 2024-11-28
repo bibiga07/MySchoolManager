@@ -29,20 +29,23 @@ enum Tab: String {
     case home
     case search
     case profile
+    case settings
     
     var title: String {
         switch self {
         case .home: return "Home"
         case .search: return "Search"
         case .profile: return "Profile"
+        case .settings: return "settings"
         }
     }
     
     var icon: String {
         switch self {
         case .home: return "house.fill"
-        case .search: return "magnifyingglass"
-        case .profile: return "person.fill"
+        case .search: return "fork.knife"
+        case .profile: return "calendar"
+        case .settings: return "gearshape.fill"
         }
     }
 }

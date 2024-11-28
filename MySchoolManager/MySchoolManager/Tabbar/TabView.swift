@@ -18,9 +18,13 @@ struct TabView: View {
             }
         case .search:
             NavigationView {
-                SelectView()
+                MainView()
             }
         case .profile:
+            NavigationView {
+                MainView()
+            }
+        case .settings:
             NavigationView {
                 MainView()
             }

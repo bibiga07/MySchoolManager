@@ -28,6 +28,7 @@ struct CustomTabBarNavigationView: View {
                         TabButton(tab: .home, selectedTab: $selectedTab)
                         TabButton(tab: .search, selectedTab: $selectedTab)
                         TabButton(tab: .profile, selectedTab: $selectedTab)
+                        TabButton(tab: .settings, selectedTab: $selectedTab)
                     }
                 }
         }
