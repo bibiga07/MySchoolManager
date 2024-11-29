@@ -15,7 +15,6 @@ class MealViewModel: ObservableObject {
     private let baseUrl = "https://open.neis.go.kr/hub/mealServiceDietInfo"
     
     func fetchMeal(officeCode: String, schoolCode: String, date: String) {
-        // 9일치 급식을 가져오기 위한 요청
         var dateArray: [String] = []
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyyMMdd"
@@ -47,8 +46,16 @@ class MealViewModel: ObservableObject {
                         
                         if parser.parse() {
                             DispatchQueue.main.async {
-                                // 급식 정보 추가
-                                self.meals.append(contentsOf: parserDelegate.mealServiceDietInfos)
+                                // 급식 정보 추가 후 정렬
+                                let sortedMeals = parserDelegate.mealServiceDietInfos.sorted { (meal1, meal2) -> Bool in
+                                    let formatter = DateFormatter()
+                                    formatter.dateFormat = "yyyyMMdd"
+                                    guard let date1 = formatter.date(from: meal1.date), let date2 = formatter.date(from: meal2.date) else {
+                                        return false
+                                    }
+                                    return date1 < date2
+                                }
+                                self.meals.append(contentsOf: sortedMeals)
                             }
                         } else {
                             print("XML 파싱 실패")
